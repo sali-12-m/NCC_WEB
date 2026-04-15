@@ -3,19 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My portfolio</title>
     
 </head>
 <body>
-
-    <h1>Salim Mohammed</h1>
+    <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#profile">Profile</a>
+    <a href="#skills">Skills</a>
+</nav>
+<section>
+    <h1 id="about">Salim Mohammed</h1>
     <a href="#bottom">go to bottom</a>
-    <P><b>Hey, I’m Salim</b> I’m a <i>student</i> who loves tech, coding, and learning new things. I’m currently exploring <b>web development</b>, <b>data scince</b>, and <b>cybersecurity</b>, and I enjoy <i>growing my skills every day</i>.</P>
-    <img src="images/My.jpg" width="120" height="120" alt="It is my image">
-    <h3>My skills</h3>
-    <ul>
-        <li>eating food</li>
-    </ul>
+    <div class="container">
+        <img src="images/My.jpg" width="120" height="120" alt="It is my image">
+    <P id="profile"><b>Hey, I’m Salim</b> I’m a <i>student</i> who loves tech, coding, and learning new things. I’m currently exploring <b>web development</b>, <b>data scince</b>, and <b>cybersecurity</b>, and I enjoy <i>growing my skills every day</i>.</P>
+    </section>
+    </div>
+    <section class="projects">
+        <h3>My projects</h3>
+        <div class="grid">
+            <div class="card">simple portfolio</div>
+            <div class="card">Advanced Analysis of Student Performance Using Multi-Dimensional Data Techniques</div>
+        </div>
+    </section>
+    <section>
+    <h3 id="skills">My Skills</h3>
+<ul>
+    <li>Problem Solving</li>
+    <li>Basic Programming</li>
+</ul>
     <h3>My hobbies</h3>
     <ul>
         <li>problem solving</li>
@@ -26,6 +44,8 @@
         <li>Software development</li>
         <li>Solving real world problems</li>
     </ul>
+    </section>
+    <section>
     <h3>courses</h3>
     <ol>
         <li>Object orientedPrograming</li>
@@ -35,6 +55,7 @@
         <li>Fundamental of software engineering</li>
         <li>programming under linex</li>
     </ol>
+    </section>
     <table>
         <caption><h2>Education Table</h2></caption>
         <thead>
@@ -79,9 +100,15 @@
     </table>
     <br>
     <form>
-        <input type="text" placeholder="Full name" name="name">
-        <input type="text" placeholder="Email" email="email">
-        <input type="text" placeholder="Message" message="message">
+        <div>
+            <div><label for="name">Name :</label></div>
+            <input type="text" id="name" placeholder="Full name" name="name"></div>
+        <div>
+            <div><label for="email">Email :</label></div>
+            <input type="text" id="email" placeholder="Enter your Email" email="email"></div>
+        <div>
+            <div><label for="message">Feedback :</label></div>
+            <textarea id="message" placeholder="Message"></textarea></div>
         <input type="submit">
     </form>
     <br>
@@ -91,7 +118,7 @@
         <img src="cat.jpg" width="200" height="200" alt="cat picture">
     </a>
     <br>
-    <iframe src="https://youtu.be/pQN-pnXPaVg">sorry for iframe</iframe>
+    <iframe src="https://youtu.be/pQN-pnXPaVg" width="500" height="300">sorry for iframe</iframe>
     <div id="bottom"></div>
 </body>
 </html>
