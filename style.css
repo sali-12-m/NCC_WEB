@@ -13,6 +13,10 @@ h1{
     margin: 3px;
     font-size: 3rem;
     border: 3px;
+    background: scroll;
+}
+h1:hover{
+    color: black;
 }
 p{
     font-size: 1.2rem;
@@ -48,21 +52,62 @@ img{
 }
 .card:hover{
     color: #6b87c4;
+    background-color: #1E3A8A;
 }
 .projects h3{
-    padding-left:160px;
+    padding-left:200px;
+    align-items: center;
 }
-ul,ol{
-    list-style:none;
+.a{
+    text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ha{
+    text-align: center;
+}
+.element{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+.element:hover{
+    background-color: #1E3A8A;
+}
+ul{
+    list-style: "✦";
     margin:10px;
-    color: darkcyan;
+    color: #1F2937;
+}
+ol{
+    list-style: none;
+    margin:10px;
+    color: #1F2937;
+}
+ul:hover{
+    color: #E5E7EB;
+
 }
 li{
     margin: 5px;
+    font-size: 17px;
+}
+.y:hover{
+    color: #6b87c4;
+}
+.cont{
+    text-align: center;
 }
 table{
     border: 2px solid black;
     margin: 20px;
+    background-color: #f2f2f2;
+}
+table:hover{
+    background-color: lightgoldenrodyellow;
 }
 th,td{
     border: 1px solid black;
@@ -77,6 +122,9 @@ th{
     gap: 1rem;
     background-color: black;
     padding: 1rem;
+}
+.navbar:hover{
+    background-color: #1E3A8A;
 }
 a{
     color: lightblue;
@@ -106,12 +154,28 @@ input[type="submit"]:hover{
 section{
     margin: 20px;
     padding: 10px;
-    border: 1.5px solid black;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+section:hover{
+    background-color: lightgoldenrodyellow;
 }
 form{
     margin: 20px;
     padding: 10px;
-    border: 1.5px solid black;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: gray;
+}
+form:hover{
+    background-color: lightgoldenrodyellow;
+}
+.fo{
+    text-align: center;
+}
+.sub{
+    text-align: center;
 }
 @media (max-width: 768px) {
     body {
