@@ -205,7 +205,7 @@ form:hover{
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 0.5rem;
         justify-content: end;
     }
