@@ -205,9 +205,9 @@ form:hover{
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-start;
         gap: 0.5rem;
-        justify-content: center;
+        justify-content: end;
     }
     a {
         display: block;
