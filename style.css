@@ -230,10 +230,10 @@ form:hover{
         padding: 0.8rem;
         margin: 0.5rem;
     }
-    input, textarea {
+    input,
+    textarea {
         width: 100%;
     }
-
     input[type="submit"] {
         width: 100%;
     }
@@ -241,7 +241,8 @@ form:hover{
         width: 100%;
         font-size: 0.9rem;
     }
-    section, form {
+    section,
+    form {
         margin: 10px;
         padding: 8px;
     }
